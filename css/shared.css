@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Quicksand', sans-serif;
   margin: 0;
@@ -7,6 +11,9 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 15px 60px;
+  position: fixed;
+  width: 100%;
 }
 
 #page-logo a {
@@ -36,7 +43,7 @@ ul a {
   justify-content: flex-end;
 }
 
-li {
-  width: 100px;
+header li {
+  margin-left: 20px;
   text-align: right;
 }
