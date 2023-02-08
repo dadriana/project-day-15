@@ -47,3 +47,7 @@ header li {
   margin-left: 20px;
   text-align: right;
 }
+
+header a {
+  color: rgb(255, 251, 0);
+}
